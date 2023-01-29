@@ -7,8 +7,35 @@
 /* common  */
 
 /* typo  */
+li{
+    list-style: none;
+}
 
 /* header  */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+nav div ul{
+    display: flex;
+    align-items: center;
+}
+.left li, .right li{
+    margin: 0 10px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    height: 16px;
+}
+.start{
+    background-color: #0061ff;
+    color: white;
+    padding: 5px;
+}
 
 /* main  */
 
