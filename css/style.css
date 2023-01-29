@@ -90,5 +90,22 @@ h1{
     width: 100%;
 }
 /* fine terza sezione  */
+/* quarta sezione  */
+.container-fourth{
+    width: 55%;
+    margin: auto;
+}
+.container-fourth-img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container-fourth-img div{
+    width: calc(100% /3 - 20px);
+}
+.container-fourth-img div img{
+    width: 100%;
+}
+/* fine quarta sezione  */
 
 /* footer  */
