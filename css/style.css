@@ -10,7 +10,6 @@
 li{
     list-style: none;
 }
-
 /* header  */
 nav{
     display: flex;
@@ -36,7 +35,33 @@ nav a{
     color: white;
     padding: 5px;
 }
-
 /* main  */
+/* prima sezione */
+.container-first{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+}
+.container-first div:first-child{
+    width: 30%;
+}
+.container-first div:last-child{
+    width: 70%;
+}
+h1{
+    text-align: left;
+    font-size: 70px;
+}
+.titolo{
+    width: 70%;
+    margin: auto;
+}
+.img-jumbo{
+    width: 100%;
+}
+.first{
+    background-color: #b4d0e7;
+}
+/* fine prima sezione */
 
 /* footer  */
