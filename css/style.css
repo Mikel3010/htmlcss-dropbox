@@ -107,5 +107,36 @@ h1{
     width: 100%;
 }
 /* fine quarta sezione  */
+/* quinta sezione  */
+.fifth-team{
+    width: 55%;
+    margin: auto;
+}
+.container-fifth{
+    display: flex;
+}
+.container-fifth div{
+    width: calc(100% /3);
+}
+.fifth-img, .fifth-img2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.fifth-img div, .fifth-img2 div{
+    width: 50%;
+    height: 50%;
+}
+.fifth-img div img, .fifth-img2 div img{
+    width: 50%;
+}
+.fifth-bt{
+    display: flex;
+    width: 55%;
+    margin: auto;
+}
+.fifth-bt div{
+    width: 50%;
+}
+/* fine quanta sezione  */
 
 /* footer  */
