@@ -63,5 +63,14 @@ h1{
     background-color: #b4d0e7;
 }
 /* fine prima sezione */
+/* seconda sezione  */
+.container-opzioni{
+    display: flex;
+}
+.container-second{
+    width: 55%;
+    margin: auto;
+}
+/* fine seocnda sezione */
 
 /* footer  */
