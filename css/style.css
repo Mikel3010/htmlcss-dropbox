@@ -72,5 +72,23 @@ h1{
     margin: auto;
 }
 /* fine seocnda sezione */
+/* terza sezione */
+.container-third{
+    width: 55%;
+    margin: auto;
+}
+.container-partner{
+    display: flex;
+}
+.container-partner div:first-child{
+    width: 70%;
+}
+.container-partner div:last-child{
+    width: 30%;
+}
+.img-partner{
+    width: 100%;
+}
+/* fine terza sezione  */
 
 /* footer  */
