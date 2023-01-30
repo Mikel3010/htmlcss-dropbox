@@ -146,3 +146,13 @@ h1{
 }
 /* fine sesta sezione  */
 /* footer  */
+.container-footer{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-bottom{
+    width: 70%;
+    margin: auto;
+}
