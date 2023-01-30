@@ -5,27 +5,57 @@
     box-sizing: border-box;
 }
 /* common  */
+.container-first,
+.titolo,
+.container-footer,
+.footer-bottom{
+    width: 70%;
+    margin: auto;
+}
+.container-second,
+.container-third,
+.container-fourth,
+.fifth-team,
+.fifth-bt,
+.sixth div{
+    width: 55%;
+    margin: auto;
+}
+
 
 /* typo  */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
 li{
     list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: black;
 }
 /* header  */
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 20px 0;
+    height: 80px;
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: #d1d9e1 solid 1px;
 }
-nav div ul{
+.left, .right{
+    height: 100%;
     display: flex;
-    align-items: center;
 }
 .left li, .right li{
     margin: 0 10px;
-}
-nav a{
-    text-decoration: none;
-    color: black;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 .logo{
     height: 16px;
@@ -33,13 +63,14 @@ nav a{
 .start{
     background-color: #0061ff;
     color: white;
-    padding: 5px;
+    padding: 5px 10px;
+}
+nav li:hover{
+    border-bottom: 1px solid black;
 }
 /* main  */
 /* prima sezione */
 .container-first{
-    width: 70%;
-    margin: 0 auto;
     display: flex;
 }
 .container-first div:first-child{
@@ -52,10 +83,6 @@ h1{
     text-align: left;
     font-size: 70px;
 }
-.titolo{
-    width: 70%;
-    margin: auto;
-}
 .img-jumbo{
     width: 100%;
 }
@@ -67,16 +94,10 @@ h1{
 .container-opzioni{
     display: flex;
 }
-.container-second{
-    width: 55%;
-    margin: auto;
-}
+
 /* fine seocnda sezione */
 /* terza sezione */
-.container-third{
-    width: 55%;
-    margin: auto;
-}
+
 .container-partner{
     display: flex;
 }
@@ -91,10 +112,7 @@ h1{
 }
 /* fine terza sezione  */
 /* quarta sezione  */
-.container-fourth{
-    width: 55%;
-    margin: auto;
-}
+
 .container-fourth-img{
     display: flex;
     flex-wrap: wrap;
@@ -108,10 +126,7 @@ h1{
 }
 /* fine quarta sezione  */
 /* quinta sezione  */
-.fifth-team{
-    width: 55%;
-    margin: auto;
-}
+
 .container-fifth{
     display: flex;
 }
@@ -131,8 +146,6 @@ h1{
 }
 .fifth-bt{
     display: flex;
-    width: 55%;
-    margin: auto;
 }
 .fifth-bt div{
     width: 50%;
@@ -140,19 +153,11 @@ h1{
 /* fine quanta sezione  */
 /* sesta sezione  */
 .sixth div{
-    width: 55%;
-    margin: auto;
     text-align:left;
 }
 /* fine sesta sezione  */
 /* footer  */
 .container-footer{
-    width: 70%;
-    margin: auto;
     display: flex;
     justify-content: space-between;
-}
-.footer-bottom{
-    width: 70%;
-    margin: auto;
 }
