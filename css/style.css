@@ -138,5 +138,11 @@ h1{
     width: 50%;
 }
 /* fine quanta sezione  */
-
+/* sesta sezione  */
+.sixth div{
+    width: 55%;
+    margin: auto;
+    text-align:left;
+}
+/* fine sesta sezione  */
 /* footer  */
