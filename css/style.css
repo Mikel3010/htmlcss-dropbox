@@ -21,6 +21,17 @@
     width: 55%;
     margin: auto;
 }
+.container-first button,
+.container-opzioni button,
+.container-third button:first-child{
+    background-color: #0061ff;
+    border-style: none;
+    color: white;
+    height: 45px;
+    width: 200px;
+    margin: 35px 0;
+}
+
 
 
 /* typo  */
@@ -33,6 +44,9 @@ li{
 nav a{
     text-decoration: none;
     color: black;
+}
+p, a, button, li{
+    font-size: 14px;
 }
 /* header  */
 nav{
@@ -72,6 +86,8 @@ nav li:hover{
 /* prima sezione */
 .container-first{
     display: flex;
+    position: relative;
+    top: 50px;
 }
 .container-first div:first-child{
     width: 30%;
@@ -88,11 +104,21 @@ h1{
 }
 .first{
     background-color: #b4d0e7;
+    padding-top: 140px;
+}
+.arrow{
+    margin-top: 40px;
+}
+.arrow i{
+    font-size: 35px;
 }
 /* fine prima sezione */
 /* seconda sezione  */
 .container-opzioni{
     display: flex;
+}
+.container-second{
+    margin-top: 100px;
 }
 
 /* fine seocnda sezione */
