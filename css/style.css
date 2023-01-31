@@ -31,6 +31,11 @@
     width: 200px;
     margin: 35px 0;
 }
+.container-first button:hover,
+.container-opzioni button:hover,
+.container-third button:first-child:hover{
+    background-color: aquamarine;
+}
 /* typo  */
 body{
     font-family: 'Open Sans', sans-serif;
@@ -137,7 +142,7 @@ h1{
 }
 .border{
     border: 1px solid #d0d0d3;
-    width: calc(100% /3 - 30px);
+    width: calc(100% /3 - 20px);
     padding-bottom: 30px;
 
 }
@@ -330,18 +335,32 @@ h1{
 }
 /* fine quanta sezione  */
 /* sesta sezione  */
-.sixth div div{
+.visibile{
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 20px 0;
 }
-.sixth div:first-child{
-    margin-bottom: 100px;
+.sixth{
+    padding-bottom: 100px;
 }
 .sixth i{
     margin-right: 30px;
     font-size: 12px;
+}
+.container-visibile{
+    position: relative;
+}
+.nascosto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+}
+.nascosto:hover{
+    opacity: 1;
+    position: relative;
 }
 /* fine sesta sezione  */
 /* footer  */
