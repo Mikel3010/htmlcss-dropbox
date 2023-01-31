@@ -16,7 +16,6 @@
 .container-third,
 .container-fourth,
 .fifth-team,
-.fifth-bt,
 .sixth div{
     width: 65%;
     margin: auto;
@@ -218,9 +217,11 @@ h1{
 /* quinta sezione  */
 .container-fifth{
     display: flex;
+    margin-top: 100px;
 }
 .container-fifth div{
-    width: calc(100% /3);
+    width: calc(100vw /3);
+    height: calc(100vw /3);
 }
 .fifth-img, .fifth-img2{
     display: flex;
@@ -229,15 +230,82 @@ h1{
 .fifth-img div, .fifth-img2 div{
     width: 50%;
     height: 50%;
+    position: relative;
 }
 .fifth-img div img, .fifth-img2 div img{
     width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: brightness(0) invert(1);
 }
 .fifth-bt{
     display: flex;
+    justify-content: center;
+    background-color: #b4d0e7;
+}
+.fifth-bt div:last-child{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
 }
 .fifth-bt div{
-    width: 50%;
+    width: calc(50% /2);
+}
+.fifth-bt h2{
+    color: #61082b;
+    text-align: left;
+}
+.fifth-bt button{
+    margin-top: 135px;
+    padding: 10px 35px;
+    border-style: none;
+    background-color: white;
+}
+.fifth-center{
+    padding: 35px;
+    overflow: auto;
+}
+.fifth-center img{
+    height: 50px;
+    margin-bottom: 40px;
+}
+.fifth-center p{
+    margin-top: 30px;
+}
+.fifth-center hr{
+    width: 12%;
+}
+.fifth-img div:first-child div{
+    height: 80%;
+    width: 80%;
+    margin: 10% 10%;
+    background-color: #a2d39b;
+}
+.fifth-img div:first-child{
+    background-color: #d1e9cd;
+}
+.fifth-img div:nth-child(2){
+    background-color: #61082b ;
+}
+.fifth-img div:nth-child(3){
+    background-color: #0093ce ;
+}
+.fifth-img div:nth-child(4){
+    background-color: #ff1c1c ;
+}
+.fifth-img2 div:first-child{
+    background-color: #d5001f;
+}
+.fifth-img2 div:nth-child(2){
+    background-color: #b4d0e7 ;
+}
+.fifth-img2 div:nth-child(3){
+    background-color: #0d2481 ;
+}
+.fifth-img2 div:nth-child(4){
+    background-color: #ffd830 ;
 }
 /* fine quanta sezione  */
 /* sesta sezione  */
