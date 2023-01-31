@@ -309,8 +309,18 @@ h1{
 }
 /* fine quanta sezione  */
 /* sesta sezione  */
-.sixth div{
-    text-align:left;
+.sixth div div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 0;
+}
+.sixth div:first-child{
+    margin-bottom: 100px;
+}
+.sixth i{
+    margin-right: 30px;
+    font-size: 12px;
 }
 /* fine sesta sezione  */
 /* footer  */
