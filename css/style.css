@@ -9,15 +9,16 @@
 .titolo,
 .container-footer,
 .footer-bottom{
-    width: 80%;
+    max-width: 1000px;
     margin: auto;
 }
 .container-second,
 .container-third,
 .container-fourth,
 .fifth-team,
+.fifth-bt,
 .sixth div{
-    width: 65%;
+    max-width: 800px;
     margin: auto;
 }
 .container-first button,
@@ -47,6 +48,7 @@ p, a, button, li, span, strong, small{
 h2{
     margin-top: 130px;
     margin-bottom: 60px;
+    font-size: 32px;
 }
 h3, h4{
     margin-bottom: 25px;
@@ -148,16 +150,26 @@ h1{
 .opzione{
     padding: 15px;
 }
-.opzione ul li i{
-    margin-top: 30px;
+.li-flex{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+.li-flex div:first-child{
+    margin-right: 5px;
 }
 .hr{
-    padding-right: 80%;
+    width: 20%;
     margin: 30px 0;
 }
 .opzione button{
     width: 100%;
 }
+.opzione ul{
+    margin-top: 40px;
+}
+
+
 .blu{
     color: #0061ff;
 }
@@ -223,6 +235,9 @@ h1{
     width: calc(100vw /3);
     height: calc(100vw /3);
 }
+.fifth-team h2{
+    padding-right: 30%;
+}
 .fifth-img, .fifth-img2{
     display: flex;
     flex-wrap: wrap;
@@ -240,18 +255,24 @@ h1{
     transform: translate(-50%, -50%);
     filter: brightness(0) invert(1);
 }
+.container-fifth-bt{
+    background-color: #b4d0e7;
+}
 .fifth-bt{
     display: flex;
     justify-content: center;
-    background-color: #b4d0e7;
 }
 .fifth-bt div:last-child{
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
 }
-.fifth-bt div{
-    width: calc(50% /2);
+.fifth-bt div:first-child{
+    width: 60%;
+    margin-right: 10%;
+}
+.fifth-bt div:last-child{
+    width: 40%;
 }
 .fifth-bt h2{
     color: #61082b;
