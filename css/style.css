@@ -168,13 +168,37 @@ h1{
     display: flex;
 }
 .container-partner div:first-child{
-    width: 70%;
+    width: 65%;
 }
 .container-partner div:last-child{
-    width: 30%;
+    width: 35%;
+    padding: 10px 40px;
 }
 .img-partner{
     width: 100%;
+}
+.enterprise{
+    display: flex;
+    border: 1px solid #d0d0d3;
+    padding: 0 20px 30px 20px;
+    margin-bottom: 150px;
+}
+.enterprise div:first-child{
+    margin-top: 30px;
+}
+.enterprise-team{
+    border-top: #d0d0d3 solid 1px;
+    border-left: #d0d0d3 solid 1px;
+    border-right: #d0d0d3 solid 1px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+}
+.button-white button{
+    background-color: white;
+    padding: 10px 15px;
+    margin-top: 30px;
+    border: 1px solid black;
 }
 /* fine terza sezione  */
 /* quarta sezione  */
